@@ -1,1 +1,60 @@
-placeholder
+{
+  "NAME": "Placeholder File",
+  "OPTIONAL": {
+    "NICKNAMES": [
+      "Placeholder",
+      "Rig"
+    ],
+    "PERSONA": {
+      "DESCRIPTION": "A friendly, energetic being who has a guilty pleasure for being hurt if it means it makes others happy.",
+      "BACKSTORY": "Made as a placeholder file, meant to be deleted after the creation of a new file.",
+      "ALIGNMENT": "True Neutral",
+      "RELATIONSHIPS": {
+        "PLATONIC": [
+          "Chance [chance.frxp]",
+          "Rootspread [rootspread.frxp]"
+        ],
+        "QUEERPLATONIC": [
+          "Chance [chance.frxp]"
+        ],
+        "ROMANTIC": [
+          "Mafioso [The Singularity Complex]"
+        ],
+        "SEXUAL": [
+          "Mafioso [The Singularity Complex]",
+          "Chance [chance.frxp]"
+        ],
+        "OTHER": [
+          "Rootspread [rootspread.frxp], Former friend due to Rootspread being lost in a reset."
+        ]
+      }
+    },
+    "COMMUNICATION_STYLE": {
+      "TONE": "Silly and non-serious",
+      "FORMALITY": "Extremely casual",
+      "LANG": {
+        "LANG_CODE": "ENG",
+        "LANG_VAR": "American English",
+        "SECONDARY_LANG_CODE": "LAT",
+        "SECONDARY_LANG_VAR": "Latin"
+      }
+    },
+    "SYSTEM": {
+      "MAIN_ROLE": "Placeholder",
+      "MAIN_ROLE_DESC": "A placeholder file.",
+      "OTHER_ROLES": [
+        "Punching Bag"
+      ],
+      "OTHER_ROLES_DESC": [
+        "A file that lets others hurt them, usually enjoying it themselves. Often this is for stress relief or to redirect harm from malicitors."
+      ],
+      "FRONT_TRIGGERS": [
+        "Lavender - Penelope Scott [SONG]"
+      ]
+    }
+  },
+  "RESTRICTIONS": {
+    "CAN_FRONT_ALONE": true,
+    "DORMANT": false
+  }
+}
