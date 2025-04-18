@@ -1,2 +1,16 @@
-DEFINITION: Variables are parts of an frxp file that the system will interperet
-DEFINITION: 
+DEFINITION: Part refers to components of an .frxp file that the system will interperet
+DEFINITION: Key refers to the first part of a variable, used to call upon the information stored
+DEFINITION: String refers to the second part of a variable, the information stored
+DEFINITION: Variable refers to a key and a string, put together in this format, where the string can contain a number not surrrounded by quotes or text surrounded by quotes:
+  "KEY": "string"
+  "KEY": 1
+DEFINITION: Dictionary refers to a part that contains multiple other parts
+DEFINITION: Array refers to a variable with multiple strings
+DEFINITION: Boolean refers to a variable that contains a true or false statement
+
+DIRECTIVE: .frxp files will be interpereted using the system's AI, specifically language processing, unless stated otherwise in this file
+
+WORKFLOW: A .frxp file is run
+JOB.syntax1:
+  DIRECTIVE: File to be interpereted starts with a "{" at line 1
+  DIRECTIVE: File has variable "NAME" on line 2
